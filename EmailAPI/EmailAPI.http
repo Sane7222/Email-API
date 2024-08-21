@@ -1,0 +1,18 @@
+@EmailAPI_HostAddress = http://localhost:5033
+
+###
+POST {{EmailAPI_HostAddress}}/send-email/
+Subscription-Key: key
+Content-Type: application/json
+
+  {
+    "App": "Test",
+    "To": "test@email.com",
+    "Subject": "Test Email",
+    "Body": "This is a test email."
+  }
+
+###
+GET {{EmailAPI_HostAddress}}/servers/keys
+Subscription-Key: key
+Accept: application/json
