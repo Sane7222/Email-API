@@ -1,4 +1,4 @@
-# Email Sender API
+# Email API
 
 This project is an Email Sender API that uses an SMTP server to send emails to specified recipients and includes options for authentication. It leverages Azure services for configuration and secrets management.
 
